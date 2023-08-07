@@ -2,7 +2,7 @@ import turtle
 
 window = turtle.Screen()
 tortuga = turtle.Turtle()
-
+#en este ejemplo subo lo que es la inicial de min nombre con turtle: E
 tortuga.fd(100)
 tortuga.right(90)
 
