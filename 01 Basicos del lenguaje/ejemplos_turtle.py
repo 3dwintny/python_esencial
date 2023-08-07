@@ -38,4 +38,6 @@ tortuga.right(90)
 
 tortuga.fd(160)
 
+
+
 window.mainloop()
