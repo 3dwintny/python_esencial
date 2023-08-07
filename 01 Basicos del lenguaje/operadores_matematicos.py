@@ -14,14 +14,29 @@ print("El resultado es:",res)
     
 #Variable
 # Variables de una asignacion
-message = "como estas?"
-_age = 24
-PI  = 3.12159
-__do_not_touch = "Esta variable es importante para el programa, porfavor no modificarla"
+message = "como estas?" 
+_age = 24 #Variabe privada, cuando tiene un guion vajo antes de el nombre
+PI  = 3.12159 # en mayuscula, es probable que no debemos agregar una reasignacion.
+__do_not_touch = "Esta variable es importante para el programa, porfavor no modificarla" #Variables que no deben ser modificadas.
 #variables que se pueden reasignacion
 
 var_1= 5
 var_1= var_1+5
 print(var_1)
  
+#Expreciones y enunciados
+#Expreciones Son instrucciones para el interprete, para que evalue la exprecion
+#enununciados, son los resultados de nuestro programa
+
+#Orden de operaciones:
+#Parentesis
+    #Exponentes
+        #Multiplicacion
+        #Division
+            #Adicion
+            #Subtraccion
+#PEMDAS Acronimo del orden de las operaciones.
+#Variable incorrectas : 43var = 34, global = 34
+
+
 
