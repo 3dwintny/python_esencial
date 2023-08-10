@@ -1,0 +1,23 @@
+#Logical operators in python 
+#boolean structure - True -False
+
+x = 4
+y =3
+a=5 
+b=7 
+#Conditional structures
+#assignment sign = 
+#equalizer sign ==
+x == y
+#Not same 
+x!=y
+
+#example
+(x < y) and (a < b)
+
+# the best way todo is
+if x < y:
+    print("x es menor que y ")
+else:
+    print("x es mayor que y")
+ 
