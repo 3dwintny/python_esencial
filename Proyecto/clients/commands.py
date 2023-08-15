@@ -35,7 +35,6 @@ def create (ctx, name, company, email, position):
     """ Crate s a new clients """
     client = ClientModel(name, company, email, position)
     client_service = ClientService(ctx.obj['clients_table'])
-
     client_service.create_client(client)
 
 @clients.command()
@@ -57,7 +56,6 @@ def list(ctx):
             email=client['email'],
             position=client['position']
         ))
-
 
 @clients.command()
 @click.argument('client_uid',
@@ -98,7 +96,6 @@ def delete(ctx, client_uid):
     client_service = ClientService(ctx.obj['clients_table'])
     client_service.delete_client(client_uid)
     click.echo('Client deleted')
-
 
 all = clients
 

@@ -47,7 +47,7 @@ def create_client(client):
         clients.append(client)
     else:
         print('Client already is in the client\'s list')
-    
+
 def list_client():
     global clients
     for idx, client in enumerate(clients):
@@ -138,5 +138,4 @@ if __name__ =='__main__':
             salir = 'E'
             print('Tank you for your visit')
         else:
-            print('Invalid command') 
-
+            print('Invalid command')
